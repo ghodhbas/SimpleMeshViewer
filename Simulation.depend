@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1537406543 source:/home/ghodhbas/Desktop/Simulation/display.cpp
+	"display.h"
+	<iostream>
+	<GL/glew.h>
+	<SDL2/SDL_opengl.h>
+	<SDL2/SDL.h>
+	"transform.h"
+
+1537119257 /home/ghodhbas/Desktop/Simulation/display.h
+	<SDL2/SDL.h>
+	<string>
+	"transform.h"
+	"camera.h"
+
+1537406377 source:/home/ghodhbas/Desktop/Simulation/main.cpp
+	<iostream>
+	<string>
+	<GL/glew.h>
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+	<GL/glut.h>
+
+1537406498 source:/home/ghodhbas/Desktop/Simulation/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1536603122 /home/ghodhbas/Desktop/Simulation/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+	"camera.h"
+
+1537237209 /home/ghodhbas/Desktop/Simulation/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+	"obj_loader.h"
+
+1537237183 source:/home/ghodhbas/Desktop/Simulation/mesh.cpp
+	"mesh.h"
+	"obj_loader.h"
+	<vector>
+
+1536524438 source:/home/ghodhbas/Desktop/Simulation/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1536524484 /home/ghodhbas/Desktop/Simulation/stb_image.h
+	<stdio.h>
+
+1536527053 /home/ghodhbas/Desktop/Simulation/texture.h
+	<string>
+	<GL/glew.h>
+
+1536528716 source:/home/ghodhbas/Desktop/Simulation/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<cassert>
+	<iostream>
+
+1536547716 /home/ghodhbas/Desktop/Simulation/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1537068027 /home/ghodhbas/Desktop/Simulation/camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1536607048 /home/ghodhbas/Desktop/Simulation/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1536607048 source:/home/ghodhbas/Desktop/Simulation/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
